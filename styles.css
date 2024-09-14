@@ -56,10 +56,12 @@ header {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   margin-top: 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -73,6 +75,9 @@ h1 {
 @media (max-width: 768px) {
   h1 {
     font-size: 5rem;
+  }
+  header {
+    margin-top: 0; // Remove top margin on smaller screens
   }
 }
 
