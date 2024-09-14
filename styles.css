@@ -29,15 +29,20 @@ body {
 
 header {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 7rem;
     margin-bottom: 0.5rem;
     color: #333;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 2px;
+    font-family: cursive;
+    letter-spacing: 1px;
 }
 
 h2 {
