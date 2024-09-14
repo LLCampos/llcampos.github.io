@@ -152,8 +152,9 @@ img {
 
 .full-width-image {
   width: 100%;
-  max-height: 400px;
+  height: 70vh; /* This sets the height to 50% of the viewport height */
   overflow: hidden;
+  position: relative;
 }
 
 .full-width-image img {
@@ -161,4 +162,7 @@ img {
   height: 100%;
   object-fit: cover;
   opacity: 0.2; /* Adjust this value for desired transparency */
+  position: absolute;
+  top: 0;
+  left: 0;
 }
