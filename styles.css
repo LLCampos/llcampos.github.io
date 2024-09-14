@@ -1,0 +1,89 @@
+:root {
+  --color-1: #D2E0FB;
+  --color-2: #FEF9D9;
+  --color-3: #DEE5D4; 
+  --color-4: #8EACCD;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, var(--color-1), var(--color-2), var(--color-3), var(--color-4));
+    background-size: 400% 900%;
+    animation: gradientBackground 15s ease infinite;
+  }
+
+@keyframes gradientBackground {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0.5rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.text {
+    flex: 1;
+    padding: 1rem;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .content-section, .content-section.reverse {
+        flex-direction: column;
+    }
+}
