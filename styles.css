@@ -221,3 +221,19 @@ img {
 .faq-answer {
   display: none;
 }
+
+.dress-code-images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.dress-code-images img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
