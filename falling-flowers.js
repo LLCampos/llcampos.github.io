@@ -9,11 +9,11 @@ function createFlower() {
   // Remove the flower after animation ends
   setTimeout(() => {
     flower.remove();
-  }, 10000);
+  }, 20000);
 }
 
 function startFallingFlowers() {
-  setInterval(createFlower, 300); // Create a new flower every 300ms
+  setInterval(createFlower, 500); // Create a new flower every 300ms
 }
 
 // Start the falling flowers effect when the page loads
