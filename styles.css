@@ -231,6 +231,13 @@ img {
   margin-top: 1rem;
 }
 
+@media (max-width: 768px) {
+  .dress-code-images {
+    flex-direction: column;
+  }
+}
+
+
 .dress-code-images img {
   flex: 1;
   max-width: 100%;
