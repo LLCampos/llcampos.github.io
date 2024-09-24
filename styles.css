@@ -267,3 +267,7 @@ img {
   border-radius: 5px;
   font-weight: bold;
 }
+
+.btn:hover {
+  background-color: #6c8bb7;
+}
