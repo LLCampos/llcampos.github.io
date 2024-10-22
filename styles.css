@@ -254,12 +254,22 @@ img {
   margin-top: 1rem;
 }
 
+@media (max-width: 768px) {
+  .dress-code-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dress-code-image-container {
+  display: flex;
+  flex-direction: column;
+}
 
 .dress-code-images img {
   flex: 1;
   max-height: 30rem;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .btn {
