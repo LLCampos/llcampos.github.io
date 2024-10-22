@@ -248,24 +248,16 @@ img {
 }
 
 .dress-code-images {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 1rem;
-}
-
-@media (max-width: 768px) {
-  .dress-code-images {
-    flex-direction: column;
-  }
 }
 
 
 .dress-code-images img {
   flex: 1;
-  max-width: 100%;
+  max-height: 30rem;
   height: auto;
   object-fit: contain;
 }
