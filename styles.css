@@ -275,3 +275,8 @@ img {
 .btn:hover {
   background-color: #6c8bb7;
 }
+
+.image-caption {
+  font-size: 0.8rem;
+  text-align: center;
+}
