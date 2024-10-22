@@ -250,11 +250,11 @@ img {
 .dress-code-images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 2rem;
   margin-top: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .dress-code-images {
     grid-template-columns: 1fr;
   }
@@ -269,7 +269,7 @@ img {
   flex: 1;
   max-height: 30rem;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .btn {
